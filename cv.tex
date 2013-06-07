@@ -29,7 +29,6 @@
 \address{3, rue Salvador Allende}{92240 Malakoff, France}
 \mobile{(+33)6 63 51 28 85}
 \email{vincent.cornet@gmail.com}
-% \extrainfo{github: \url{http://github.com/dduponchel}}
 
 \nopagenumbers{}
 %----------------------------------------------------------------------------------
@@ -39,18 +38,19 @@
 \maketitle
 
 
+ 
+\section{Compétences techniques}
+
+\cvline{Langages}{Java, SQL/T-SQL, EJBQL/HQL, XML, JS, Ada, Caml}
+\cvline{IDE}{IntelliJ, Eclipse, NetBeans}
+\cvline{SGBD}{Oracle, PostgreSQL, SyBase, MySQL, MSSQL, HSQLDB, CouchDB}
+\cvline{Frameworks et bibliothèques}{Spring (Web-MVC, AOP, ORM, Security, Batch, WebFlow), Hibernate/JPA, AspectJ, Junit, EasyMock, Mockito, PowerMock, Watir, Guava, Log4J, SLF4J, Logback, Velocity, Freemarker, Digester, Drools, AngularJS, JAXB, CXF, EHCache, Quartz}
+\cvline{Outils et produits}{Ant, Maven, Hudson/Jenkins, Tomcat, JBoss AS, Apache2, ActiveMQ, Git, SVN, CVS, YourKit, JMeter, Jprofiler, MAT}
+
+
 %----------------------------------------------------------------------------------
 
 \espace
-
-%----------------------------------------------------------------------------------
-
-\section{Compétences techniques}
-\cvline{Langages}{Java, SQL/T-SQL, EJBQL/HQL, JS}
-\cvline{IDE}{IntelliJ, Eclipse, NetBeans}
-\cvline{SGBD}{Oracle, PostgreSQL, SyBase, MySQL, MSSQL, HSQLDB, CouchDB}
-\cvline{Frameworks et bibliothèques}{Spring (Web-MVC, AOP, ORM, Security, Batch, WebFlow), Hibernate/JPA, AspectJ, Junit, EasyMock, Mockito, PowerMock, Watir, Guava, Log4J, SLF4J, Logback, Velocity, Freemarker, EHCache, Xfire/CXF, AngularJS}
-\cvline{Outils et produits}{Ant, Maven, Hudson/Jenkins, Tomcat, JBoss AS, Apache2}
 
 %----------------------------------------------------------------------------------
 
@@ -59,18 +59,90 @@
 \cventry{juin 2011 -- aujourd'hui}{Fia-Net}{Paris}{Architecte J2EE}{}{
   \begin{itemize}
     \resitem{Encadrement technique d'une douzaine de développeurs sur le projet Kwixo, solution de paiement en ligne du Crédit Agricole.}
-    \resitem{Création et intégration continue de tests d'acceptance utilisant Concordion (présentation) et Watir (webdriver).}
-    \resitem{Mise en place d'AspectJ via Spring AOP en LTW pour permettre une démarche DDD.}
-    \resitem{Migration de trg-dao, framework de construction de HQL devenu obsolète, vers l'API Criteria de JPA et le méta-modèle statique d'Hibernate.}
-    \resitem{\textit{Tools} : Spring 3 (MVC, AOP, WebFlow, Batch, Security), Hibernate 3 puis 4, Freemarker, Sitemesh, CouchDB, Tomcat, Solaris, Git, Maven, Drools, jQuery, Logback, AngularJS}
+    \resitem{\textit{Sujets :} Suivi des applications et résolution de problématiques dans les environnements de production, en collaboration étroite avec les opérationnels et DBA. Mise en place d'AspectJ via Spring AOP en LTW. Migration de trg-dao, framework de construction de HQL devenu obsolète, vers l'API Criteria de JPA (Hibernate 4) et le méta-modèle statique d'Hibernate ; accompagnement de l'équipe dans la transition. Création et intégration continue de tests d'acceptance utilisant Concordion et Watir ; assistance au service qualité pour l'utilisation de Watir dans leurs procédures.}
+    \resitem{\textit{Technologies et outils :} Spring 3 (Web-MVC, AOP, ORM, WebFlow, Security, Batch, JMS), Hibernate 3 puis 4, Freemarker, Sitemesh, Drools, Logback, jQuery, AngularJS, JUnit, Mockito, Watir (JRuby), Concordion, Tomcat 6 puis 7, Sybase 15 puis 15.7, CouchDB 1.1, ActiveMQ 5.3 à 5.8, Solaris/Linux, Git, Maven, Hudson/Jenkins, MemoryAnalyzerTool.}
   \end{itemize}
 }
 
+%----------------------------------------------------------------------------------
+
 \espace
+
+%----------------------------------------------------------------------------------
 
 \cventry{Janvier 2011 -- Juin 2011}{Vidal}{Issy-les-Moulineaux (92)}{Développeur Java}{}{
   \begin{itemize}
-    \resitem{...}
+    \resitem{Membre de l'équipe back-office chargée de fournir des outils de travail aux équipes du métier, notamment aux scientifiques et aux éditoriaux, dans le contexte d'une refonte globale du SI.}
+    \resitem{\textit{Sujets :} Génération de mentions légales pour les laboratoires pharmaceutiques : transformation de monographies, édition du contenu des documents dans un éditeur Scenari intégré à Eclipse RCP. Évolution de l'outil de gestion des souscriptions (prime à l'exhaustivité). Mise en place d'une nouvelle GED (Nuxeo) et conception des services associés. Effort de cartographie du SI et de documentation en général. Organisation agile du travail fondée sur SCRUM.}
+    \resitem{\textit{Technologies et outils :} Java 6, Spring 2.5, Hibernate 3, Eclipse RCP, MS SQL Server 2005/2008, Junit, Mockito, Scenari, Maven 3 (+ plugin Tycho), OSGi, SVN/git-svn, Documentum 5, Nuxeo DM, XSLT, XMLMind.}
+  \end{itemize}
+}
+
+
+%----------------------------------------------------------------------------------
+\espace
+
+\cventry{Janvier 2010 -- Décembre 2010}{Oalia}{Suresnes (92)}{Ingénieur R\&D}{}{
+  \begin{itemize}
+    \resitem{Ingénieur Recherche et Développement chez Oalia, éditeur de logiciels d'achats.}
+    \resitem{\textit{Sujets :} Prise en main d'un framework maison vieillissant, fondé essentiellement sur Turbine et Hibernate. Apprentissage de certains aspects fonctionnels du métier d'acheteur. Conception et développement d'éléments applicatifs, refactorings divers. Force de proposition et acteur principal sur quelques chantiers transverses, notamment celui de l'intégration continue et des tests automatisés. Effort relatif aux performances : profiling, introduction du fonctionnement avec plusieurs instances des applications (refactoring et mise en place d'un cache répliqué).}
+    \resitem{\textit{Technologies et outils :} Java 5 et 6, Apache Turbine, Hibernate 3, Velocity, EHCache, Quartz, Digester, EasyMock, PowerMock, Axis 1, Oracle 10g, postgreSQL, Ant, Eclipse, Jmeter, Jprofiler, SVN/git-svn.}
+  \end{itemize}
+}
+
+
+%----------------------------------------------------------------------------------
+\espace
+
+\cventry{Fin novembre 2009}{Orsys (prestataire)}{La Défense (92)}{Formateur}{}{
+  \begin{itemize}
+    \resitem{Animation d'une semaine de formation au framework Spring pour le compte d'Orsys.}
+    \resitem{\textit{Sujets :} Présentation des concepts d'IOC, de TDD, de MVC, ainsi que des principaux modules constituant le framework Spring : IoC, AOP, ORM (utilisation avec Hibernate notamment), Tx, MVC, Security, Remoting. Création d'exercices pour les séances de TDs, pendant lesquelles les solutions proposées par Spring sont mises en œuvre et commentées.}
+    \resitem{\textit{Technologies et outils :} Java 5, Spring Framework 3, Hibernate 3, JUnit, Maven 2, Eclipse, Open Office.}
+  \end{itemize}
+}
+
+%----------------------------------------------------------------------------------
+\espace
+
+\cventry{Octobre 2009 -- Novembre 2009}{Weka (prestataire)}{Paris}{Développeur Java}{}{
+  \begin{itemize}
+    \resitem{Intervention suite à des indisponibilités régulières en production de l'application destinée aux clients (accès à des articles et ouvrages scientifiques), en pleine période de réinscription.}
+    \resitem{\textit{Sujets :} Reproduction de l'anomalie de production dans un environnement dédié, à l'aide d'injecteurs (JMeter, wget, ab). Mesure de l'évolution des performances sous la charge, profiling. Solution satisfaisante obtenue par une configuration fine des différents mécanismes de cache.}
+    \resitem{\textit{Technologies et outils :} Weblogic, JMeter, YourKit, Spring Framework, EHCache, Apache Jackrabbit, Eclipse, Oracle 10g.}
+  \end{itemize}
+}
+
+%----------------------------------------------------------------------------------
+\espace
+
+\cventry{Mars 2008 -- Juillet 2009}{Direct-Énergie (prestataire)}{Issy-les-Moulineaux (92)}{Chef de projet technique}{}{
+  \begin{itemize}
+    \resitem{Stabilisation et évolution des applications relatives à la gestion des souscriptions. Encadrement technique d'une équipe de 4-6 personnes travaillant sur les différentes applications web (front-end) et batchs (back-end).}
+    \resitem{\textit{Sujets :} Mise en place (conception, réalisation, intégration) d'un batch de traitement de souscriptions en masse. Migration de Ant vers Maven 2 (pour divers projets de la DSI). Segmentation du projet principal de souscription en modules découplés et réutilisables. Divers développements et maintenances sur les applications web, composants (EJBs, WS, JMS) et batchs. Mise en place de Nexus, Hudson et Sonar.}
+    \resitem{\textit{Technologies et outils :} Java 5 puis 6, Spring 2.5, Hibernate 3 + annotations, XFire/CXF, Ant puis Maven 2, JUnit/TestNG + EasyMock, log4j/slf4j, Continuum/CruiseControl puis Hudson, Archiva puis Nexus, Oracle 10g puis 11g, Jboss 4.2.2.GA puis 5.1.0.GA, activeMQ, Jira, Eclipse, SoapUI.}
+  \end{itemize}
+}
+
+%----------------------------------------------------------------------------------
+\espace
+
+\cventry{Septembre 2006 -- Mars 2008}{AOL (prestataire)}{Neuilly-sur-Seine (92)}{Développeur Java}{}{
+  \begin{itemize}
+    \resitem{Développement de sites du portail AOL France. Suite à une montée en compétence, assignation à un poste de lead developer pour soulager l'unique architecte du projet et aider les autres développeurs.}
+    \resitem{\textit{Sujets :} Encadrement technique des développeurs. Maintenances et évolutions diverses sur le framework et les sites AOL. Refonte du modèle de données des contenus, enrichi pour permettre de nouvelles fonctionnalités dans les pages (type web 2.0), et intégration de celui-ci aux sites AOL. Évolutions diverses des éléments frontaux. Participation à une refonte partielle du framework utilisant DWR et Freemarker. Refonte complète du mécanisme d'ingestion des flux partenaires (back-end) : conception, réalisation, intégration.}
+    \resitem{\textit{Technologies et outils :} Java 5, Spring Framework 2, Hibernate 3 + annotations, Acegi, JMS, Freemarker, Maven 2, jUnit, EasyMock, Log4j, Continuum, Oracle 10g, Tomcat 5.5, Eclipse.}
+  \end{itemize}
+}
+
+%----------------------------------------------------------------------------------
+\espace
+
+\cventry{Novembre 2005 -- Août 2006}{AOL (prestataire)}{Neuilly-sur-Seine (92)}{Développeur Java}{}{
+  \begin{itemize}
+    \resitem{Refonte du portail internet d'AOL Europe, dans le cadre de sa politique de repositionnement stratégique. L'architecture de l'ancien portail montrait ses limites en termes de modularité, de coûts de développement de nouveaux sous-sites ou de maintenance de l'existant.}
+    \resitem{\textit{Sujets :} Participation à l'élaboration d'un framework personnalisé fondé sur Spring, Hibernate, Velocity, Digester, utilisant Maven, et sur lequel repose la nouvelle architecture des sites français du portail. Plus particulièrement, mise en œuvre de ce framework pour différents sites d'AOL France.}
+    \resitem{\textit{Technologies et outils :} Java 4 puis 5, Spring Framework 1 puis 2, Acegi, Hibernate + annotations, Velocity, Freemarker, Digester, Maven (1 puis 2), Continuum, JUnit, EasyMock, Quartz, SyBase, Tomcat 5.5, Eclipse.}
   \end{itemize}
 }
 
@@ -82,22 +154,20 @@
 
 \section{Diplômes et formations}
 
-\subsection{Diplômes}
-
 \cventry{2008}{Sun Certified Programmer for the Java 2 Platform, SE 5.0}{}{}{}{}
-\cventry{2005}{Ingénieur Ecole Centrale de Lille}{}{}{}{}
+\cventry{2005}{Ingénieur École Centrale de Lille}{}{}{}{}
 \cventry{2005}{Master Recherche en informatique}{}{}{}{}
 \cventry{2000}{BAC Série S}{}{}{}{}
 
 
-\subsection{Langues}
+\section{Langues}
 
 \cvline{Anglais}{courant}
 \cvline{Allemand}{moyen}
 \cvline{Japonais}{notions}
 
 
-\subsection{Centres d'intérêt et activités}
+\section{Centres d'intérêt et activités}
 
 \cvline{Sport}{Wushu (Tai Chi et Kung Fu)}
 \cvline{Musique}{Pratique de la flûte}
@@ -106,7 +176,4 @@
 
 
 \end{document}
-
-
-
 
