@@ -1,0 +1,112 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+\usepackage{verbatim}
+
+% moderncv themes
+\moderncvtheme[blue]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[grey]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+
+% before 1.0.0
+\AtBeginDocument{\setlength{\maketitlenamewidth}{9cm}}
+% after 1.0.0
+% \AtBeginDocument{\setlength{\makecvtitlenamewidth}{9cm}}
+\AtBeginDocument{\recomputelengths}
+
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand\espace{\vspace{10pt}}
+
+% personal data
+\firstname{Vincent}
+\familyname{Cornet}
+\title{Ingénieur informaticien}
+% avoid spam : replace ONLY when sent to someone
+\address{3, rue Salvador Allende}{92240 Malakoff, France}
+\mobile{(+33)6 63 51 28 85}
+\email{vincent.cornet@gmail.com}
+% \extrainfo{github: \url{http://github.com/dduponchel}}
+
+\nopagenumbers{}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+
+%----------------------------------------------------------------------------------
+
+\espace
+
+%----------------------------------------------------------------------------------
+
+\section{Compétences techniques}
+\cvline{Langages}{Java, SQL/T-SQL, EJBQL/HQL, JS}
+\cvline{IDE}{IntelliJ, Eclipse, NetBeans}
+\cvline{SGBD}{Oracle, PostgreSQL, SyBase, MySQL, MSSQL, HSQLDB, CouchDB}
+\cvline{Frameworks et bibliothèques}{Spring (Web-MVC, AOP, ORM, Security, Batch, WebFlow), Hibernate/JPA, AspectJ, Junit, EasyMock, Mockito, PowerMock, Watir, Guava, Log4J, SLF4J, Logback, Velocity, Freemarker, EHCache, Xfire/CXF, AngularJS}
+\cvline{Outils et produits}{Ant, Maven, Hudson/Jenkins, Tomcat, JBoss AS, Apache2}
+
+%----------------------------------------------------------------------------------
+
+\section{Expériences professionnelles}
+
+\cventry{juin 2011 -- aujourd'hui}{Fia-Net}{Paris}{Architecte J2EE}{}{
+  \begin{itemize}
+    \resitem{Encadrement technique d'une douzaine de développeurs sur le projet Kwixo, solution de paiement en ligne du Crédit Agricole.}
+    \resitem{Création et intégration continue de tests d'acceptance utilisant Concordion (présentation) et Watir (webdriver).}
+    \resitem{Mise en place d'AspectJ via Spring AOP en LTW pour permettre une démarche DDD.}
+    \resitem{Migration de trg-dao, framework de construction de HQL devenu obsolète, vers l'API Criteria de JPA et le méta-modèle statique d'Hibernate.}
+    \resitem{\textit{Tools} : Spring 3 (MVC, AOP, WebFlow, Batch, Security), Hibernate 3 puis 4, Freemarker, Sitemesh, CouchDB, Tomcat, Solaris, Git, Maven, Drools, jQuery, Logback, AngularJS}
+  \end{itemize}
+}
+
+\espace
+
+\cventry{Janvier 2011 -- Juin 2011}{Vidal}{Issy-les-Moulineaux (92)}{Développeur Java}{}{
+  \begin{itemize}
+    \resitem{...}
+  \end{itemize}
+}
+
+%----------------------------------------------------------------------------------
+
+\espace
+
+%----------------------------------------------------------------------------------
+
+\section{Diplômes et formations}
+
+\subsection{Diplômes}
+
+\cventry{2008}{Sun Certified Programmer for the Java 2 Platform, SE 5.0}{}{}{}{}
+\cventry{2005}{Ingénieur Ecole Centrale de Lille}{}{}{}{}
+\cventry{2005}{Master Recherche en informatique}{}{}{}{}
+\cventry{2000}{BAC Série S}{}{}{}{}
+
+
+\subsection{Langues}
+
+\cvline{Anglais}{courant}
+\cvline{Allemand}{moyen}
+\cvline{Japonais}{notions}
+
+
+\subsection{Centres d'intérêt et activités}
+
+\cvline{Sport}{Wushu (Tai Chi et Kung Fu)}
+\cvline{Musique}{Pratique de la flûte}
+\cvline{Lecture}{Philosophie et bandes dessinées}
+%----------------------------------------------------------------------------------
+
+
+\end{document}
+
+
+
+
