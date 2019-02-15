@@ -7,6 +7,6 @@ clean:
 	rm -f *.aux *.log *.nav *.out *.pdf *.snm *.toc *.vrb
 
 view: cv.pdf
-	xdg-open $<
+	evince $<
 
 .PHONY: all clean view
