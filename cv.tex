@@ -45,8 +45,8 @@
   \begin{itemize}
     \resitem{Membre de différentes équipes produits et infra de Ritmx (4 à 10 personnes), qui assure la configuration et la distribution des billets de TER. Méthodologies agiles et devOps.}
     \resitem{Membre du comité d'architecture qui implémente le rôle de CTO.}
-          \resitem{\textit{Sujets :} Distribution des titres de transport TER (devis et matérialisation). Migration sur une infra Cloud (GCP). Adoption de Kubernetes et de pratiques DevOps (Infra as Code, bonnes pratiques et outillage).}
-          \resitem{\textit{Technologies et outils :} Spring Boot 1 puis 2, Hibernate, Swagger, Log4j2, Fitnesse, JGiven, Tomcat 7 puis 9, Oracle, PostgreSQL 9.5 puis 10, Git, Maven, Gradle, Jenkins, GitLabCI, YourKit, JMC, Docker, Ansible, Terraform, Packer, Vault, Kubernetes (GCP), Prometheus, Grafana, EFK.}
+    \resitem{\textit{Sujets :} Distribution des titres de transport TER (devis et matérialisation). Migration sur une infra Cloud (GCP). Adoption de Kubernetes et de pratiques DevOps : Infra as Code, gestion des secrets, outillage.}
+          \resitem{\textit{Technologies et outils :} Spring Boot 1 puis 2, Spring Cloud Config, Hibernate, Swagger, Log4j2, Fitnesse, JGiven, Tomcat 7 à 9, PostgreSQL 9.5 à 10, Git, Maven, Gradle, Jenkins, GitLabCI, YourKit, JMC, Docker, Ansible, Terraform, Packer, Vault, Kubernetes, gcloud, Prometheus, Grafana, EFK, fluent-bit.}
   \end{itemize}
 }
 
@@ -59,7 +59,7 @@
 \cventry{Septembre 2013 -- Août 2014}{Mirakl}{Paris}{Développeur Java}{}{
   \begin{itemize}
     \resitem{Membre de l'équipe technique de Mirakl (10 personnes), qui propose un service innovant de place de marché (SaaS). Organisation du travail fondée sur SCRUM.}
-    \resitem{\textit{Sujets :} Restructuration de l'application (évolutions et maintenances devenues difficiles, performances bientôt problématiques). Notamment, migration de la couche de persistence de GORM vers Hibernate (+ QueryDSL), avec transposition des mécanismes de validation (JSR-303) et introduction des tests unitaires associés. Travail d'analyse (profiling) et résolution de problèmes de performances émergents liés aux volumes croissants de données. Soutien technique et aide à la conception auprès des autres membres de l'équipe.}
+          \resitem{\textit{Sujets :} Restructuration de l'application : migration progressive de Grails vers Spring vanilla. Résolution de problèmes de performances (profiling). Soutien technique et aide à la conception auprès des autres membres de l'équipe.}
     \resitem{\textit{Technologies et outils :} Grails 2.3, Spring 3 (AOP, ORM, Security, Batch), Hibernate 3, Hibernate Validator 5.0, Mysema QueryDSL, Jersey, Logback, JUnit puis TestNG, Mockito, Tomcat 7, PostgreSQL 9.2 puis 9.3, Git, Maven, Jenkins, MemoryAnalyzerTool, JProfiler, YourKit.}
   \end{itemize}
 }
@@ -73,7 +73,7 @@
 \cventry{Juin 2011 -- Août 2013}{Fia-Net}{Paris}{Architecte J2EE}{}{
   \begin{itemize}
     \resitem{Encadrement technique d'une douzaine de développeurs sur le projet Kwixo, solution de paiement en ligne du Crédit Agricole.}
-    \resitem{\textit{Sujets :} Suivi des applications et résolution de problématiques dans les environnements de production, en collaboration étroite avec les opérationnels et DBA. Mise en place d'AspectJ via Spring AOP en LTW. Migration de trg-dao, devenu obsolète, vers l'API Criteria de JPA (Hibernate 4) et le méta-modèle statique d'Hibernate ; accompagnement de l'équipe dans la transition. Création et intégration continue de tests d'acceptance utilisant Concordion et Watir ; introduction du service qualité à l'utilisation de Watir dans leurs procédures.}
+          \resitem{\textit{Sujets :} Suivi de production en collaboration étroite avec les opérationnels et DBA. Travaux de fond sur le socle technique des applications (AspectJ + LTW, API Criteria de JPA). Promotion et réalisation des tests d'acceptance.}
     \resitem{\textit{Technologies et outils :} Spring 3 (Web-MVC, AOP, ORM, WebFlow, Security, Batch, JMS), Hibernate 3 puis 4, Freemarker, Sitemesh, Drools, Logback, jQuery, AngularJS, JUnit, Mockito, Watir (JRuby), Concordion, Tomcat 6 puis 7, Sybase 15 puis 15.7, CouchDB 1.1, ActiveMQ 5.3 à 5.8, Git, Maven, Hudson/Jenkins, MemoryAnalyzerTool.}
   \end{itemize}
 }
@@ -87,7 +87,7 @@
 \cventry{Janvier 2011 -- Juin 2011}{Vidal}{Issy-les-Moulineaux (92)}{Développeur Java}{}{
   \begin{itemize}
     \resitem{Membre de l'équipe back-office (4-5 personnes) chargée de fournir des outils de travail aux équipes du métier, notamment aux scientifiques et aux éditoriaux, dans le contexte d'une refonte globale du SI. Organisation agile du travail fondée sur SCRUM.}
-    \resitem{\textit{Sujets :} Génération de mentions légales pour les laboratoires pharmaceutiques : transformation de monographies, édition du contenu des documents dans un éditeur Scenari intégré à Eclipse RCP. Évolutions diverses de l'outil de gestion des souscriptions. Mise en place d'une nouvelle GED (Nuxeo) et conception des services associés. Effort de cartographie du SI et de documentation en général.}
+          \resitem{\textit{Sujets :} Génération et transformation de documents structurés via IHM lourde (Eclipse RCP). Évolutions diverses de l'outil de gestion des souscriptions. Mise en place d'une nouvelle GED (Nuxeo) et conception des services associés. Effort de cartographie du SI et de documentation en général.}
     \resitem{\textit{Technologies et outils :} Java 6, Spring 2.5, Hibernate 3, Eclipse RCP, MS SQL Server 2005/2008, Junit, Mockito, Scenari, Maven 3 (+ plugin Tycho), OSGi, SVN/git-svn, Documentum 5, Nuxeo DM, XSLT, XMLMind.}
   \end{itemize}
 }
@@ -99,7 +99,7 @@
 \cventry{Janvier 2010 -- Décembre 2010}{Oalia}{Suresnes (92)}{Ingénieur R\&D}{}{
   \begin{itemize}
     \resitem{Ingénieur Recherche et Développement chez Oalia, éditeur de logiciels d'achats.}
-    \resitem{\textit{Sujets :} Prise en main d'un framework maison vieillissant, fondé essentiellement sur Turbine et Hibernate. Apprentissage de certains aspects fonctionnels du métier d'acheteur. Conception et développement d'éléments applicatifs, refactorings divers. Force de proposition et acteur principal sur quelques chantiers transverses, notamment celui de l'intégration continue et des tests automatisés. Effort relatif aux performances : profiling, introduction du fonctionnement avec plusieurs instances des applications (refactoring et mise en place d'un cache répliqué).}
+    \resitem{\textit{Sujets :} Conception et développement d'éléments applicatifs divers. Refactoring continu dans un contexte technique souffrant d'obsolescence. Forte implication dans divers chantiers transverses : intégration continue, tests automatisés, performances (cache répliqué).}
     \resitem{\textit{Technologies et outils :} Java 5 et 6, Apache Turbine, Hibernate 3, Velocity, EHCache, Quartz, Digester, EasyMock, PowerMock, Axis 1, Oracle 10g, postgreSQL, Ant, Eclipse, Jmeter, Jprofiler, SVN/git-svn.}
   \end{itemize}
 }
@@ -111,7 +111,7 @@
 \cventry{Fin novembre 2009}{Orsys (prestataire)}{La Défense (92)}{Formateur}{}{
   \begin{itemize}
     \resitem{Animation d'une semaine de formation au framework Spring pour le compte d'Orsys.}
-    \resitem{\textit{Sujets :} Présentation des concepts d'IOC, de TDD, de MVC, ainsi que des principaux modules constituant le framework Spring : IoC, AOP, ORM (utilisation avec Hibernate notamment), Tx, MVC, Security, Remoting. Création d'exercices pour les séances de TDs, pendant lesquelles les solutions proposées par Spring sont mises en œuvre et commentées.}
+    \resitem{\textit{Sujets :} Présentation des concepts d'IOC, de TDD, de MVC, ainsi que des principaux modules constituant le framework Spring : IoC, AOP, ORM, Tx, MVC, Security, Remoting. Création d'exercices pour les séances de TDs, pendant lesquelles les solutions proposées par Spring sont mises en œuvre et commentées.}
     \resitem{\textit{Technologies et outils :} Java 5, Spring Framework 3, Hibernate 3, JUnit, Maven 2, Eclipse, Open Office.}
   \end{itemize}
 }
