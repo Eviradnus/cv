@@ -1,0 +1,13 @@
+*.dvi
+*.aux
+*.log
+*.nav
+*.out
+*.pdf
+*.snm
+*.toc
+*.vrb
+*.swp
+*.orig
+cv.tex
+
