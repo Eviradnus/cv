@@ -3,6 +3,7 @@ ADDRESS2 ?= no-spam
 MOBILE ?= no-spam
 EMAIL ?= no-spam
 
+.PHONY: cv.tex all clean view
 
 all: cv.pdf
 
@@ -22,4 +23,3 @@ clean:
 view: cv.pdf
 	evince $<
 
-.PHONY: cv.tex all clean view
