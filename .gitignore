@@ -11,3 +11,7 @@
 *.orig
 cv.tex
 
+*.fls
+*.fdb_latexmk
+*.*~
+
